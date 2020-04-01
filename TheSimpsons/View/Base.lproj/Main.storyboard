@@ -49,8 +49,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98r-H0-QRZ">
-                                <rect key="frame" x="171" y="195.5" width="72" height="33.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="98r-H0-QRZ">
+                                <rect key="frame" x="20" y="195.5" width="374" height="33.5"/>
                                 <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -66,6 +66,7 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0XM-y9-sOw" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" constant="20" id="69N-8f-h6E"/>
+                            <constraint firstItem="98r-H0-QRZ" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" constant="20" id="6Em-84-F9z"/>
                             <constraint firstItem="ata-5D-Q1h" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="EWr-bz-zes"/>
                             <constraint firstItem="98r-H0-QRZ" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="Kzu-ST-GCm"/>
                             <constraint firstItem="VUw-jc-0yf" firstAttribute="trailing" secondItem="0XM-y9-sOw" secondAttribute="trailing" constant="20" id="gcY-Ji-eyG"/>
@@ -73,6 +74,7 @@
                             <constraint firstItem="0XM-y9-sOw" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="mgq-Gq-Uyr"/>
                             <constraint firstItem="ata-5D-Q1h" firstAttribute="top" secondItem="0XM-y9-sOw" secondAttribute="bottom" constant="30" id="plQ-fU-z9j"/>
                             <constraint firstItem="98r-H0-QRZ" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="45" id="tke-aw-ko5"/>
+                            <constraint firstItem="VUw-jc-0yf" firstAttribute="trailing" secondItem="98r-H0-QRZ" secondAttribute="trailing" constant="20" id="xnx-9s-BEx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>

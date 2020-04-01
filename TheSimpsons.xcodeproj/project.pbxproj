@@ -12,7 +12,7 @@
 		3A3DE70624315D2200265695 /* Simpsonfont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DE70524315D2100265695 /* Simpsonfont.otf */; };
 		3A928C43242D8A06005D7286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A928C42242D8A06005D7286 /* AppDelegate.swift */; };
 		3A928C45242D8A06005D7286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A928C44242D8A06005D7286 /* SceneDelegate.swift */; };
-		3A928C47242D8A06005D7286 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A928C46242D8A06005D7286 /* MasterViewController.swift */; };
+		3A928C47242D8A06005D7286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A928C46242D8A06005D7286 /* ViewController.swift */; };
 		3A928C49242D8A06005D7286 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A928C48242D8A06005D7286 /* DetailViewController.swift */; };
 		3A928C4C242D8A06005D7286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A928C4A242D8A06005D7286 /* Main.storyboard */; };
 		3A928C4E242D8A14005D7286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A928C4D242D8A14005D7286 /* Assets.xcassets */; };
@@ -27,7 +27,7 @@
 		3A928C3F242D8A06005D7286 /* TheSimpsons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSimpsons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A928C42242D8A06005D7286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A928C44242D8A06005D7286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A928C46242D8A06005D7286 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3A928C46242D8A06005D7286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A928C48242D8A06005D7286 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3A928C4B242D8A06005D7286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A928C4D242D8A14005D7286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		3A3DE6FF2431115200265695 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3A928C46242D8A06005D7286 /* MasterViewController.swift */,
+				3A928C46242D8A06005D7286 /* ViewController.swift */,
 				3A928C48242D8A06005D7286 /* DetailViewController.swift */,
 			);
 			path = Controller;
@@ -255,7 +255,7 @@
 				3A928C43242D8A06005D7286 /* AppDelegate.swift in Sources */,
 				3A3DE701243111A400265695 /* Simpson.swift in Sources */,
 				3A928C45242D8A06005D7286 /* SceneDelegate.swift in Sources */,
-				3A928C47242D8A06005D7286 /* MasterViewController.swift in Sources */,
+				3A928C47242D8A06005D7286 /* ViewController.swift in Sources */,
 				3A928C49242D8A06005D7286 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
